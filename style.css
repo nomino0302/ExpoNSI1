@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.page_container {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: solid 2px black;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+nav a.active {
+    background-color: #4144f7;
+    color: white;
+}
+
+nav a.active:hover {
+    background-color: #3134e0;
+}
+
+header {
+    background-image: url("img/background_image.jpeg");
+    background-size: 100% 600px;
+    height: 500px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+header h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    color: #979797;
+}
+
+header p {
+    text-align: justify;
+    font-size: 130%;
+    color: rgb(255, 236, 212);
+    line-height: 130%;
+}
+
+.header_images {
+    float: right;
+    margin-right: 40px;
+}
+
+section {
+    background-color: white;
+    border: 10px dashed rgb(25, 191, 241);
+    border-top: none;
+    border-radius: 10px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.ligne_verticale {
+    border-left: 4px dotted black;
+    width: 0;
+    height: 1650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    padding-left: 5px;
+}
+
+article h3 {
+    position: relative;
+    bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+article h4 {
+    font-weight: 700;
+}
+
+.field {
+    position: relative;
+    bottom: 20px;
+}
+
+article.seymour_side {
+    width: 50%;
+}
+
+article.doug_side {
+    width: 50%;
+}
+
+ul {
+    list-style: circle;
+}
+
+ul ul {
+    list-style: square;
+}
+
+li:not(:last-child) { 
+    margin-bottom: 8px;
+ }
+
+.droite {
+    float: right;
+}
+
+.same_field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.same_field img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.info_sources {
+    background-color: white;
+    border: 3px dashed palegreen;
+    border-radius: 10px;
+    margin: 40px 10px 0 10px;
+    padding-left: 10px;
+    height: 200px;
+}
+
+.wiki_img {
+    float: right;
+}
+
+.image_back {
+    background-image: url("img/background_image.jpeg");
+    background-size: 100% 100%;
+}
